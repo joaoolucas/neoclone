@@ -21,9 +21,9 @@ export function DreamButton({ onClick, isLoading }: DreamButtonProps) {
         variant="outline"
         className={`
           font-mono text-xs tracking-wider
-          border-cyan-500 text-cyan-500
-          hover:bg-cyan-500 hover:text-black
-          focus:ring-2 focus:ring-cyan-500 focus:ring-opacity-50
+          border-orange-500 text-orange-500
+          hover:bg-orange-500 hover:text-black
+          focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50
           transition-all duration-300 ease-in-out
           relative overflow-hidden
           ${isLoading ? 'cursor-not-allowed opacity-50' : ''}
@@ -41,7 +41,7 @@ export function DreamButton({ onClick, isLoading }: DreamButtonProps) {
         </span>
         {isLoading && (
           <motion.div
-            className="absolute inset-0 bg-cyan-500"
+            className="absolute inset-0 bg-orange-500"
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 1 }}
             transition={{ duration: 5, ease: "linear" }}

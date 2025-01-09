@@ -47,6 +47,7 @@ export function BackgroundEffect({ isActive }: { isActive: boolean }) {
 
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden">
+      <div className="absolute inset-0 bg-orange-500/20" />
       {elements.map((el, i) => {
         switch (el.type) {
           case 'particle':
