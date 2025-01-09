@@ -46,6 +46,10 @@ export default function Page() {
             height={300}
             className="invert object-contain"
             unoptimized
+            priority
+            onError={(e) => {
+              console.error('Error loading image:', e);
+            }}
           />
         </div>
         <div className="absolute bottom-4 left-0 right-0 text-center">
