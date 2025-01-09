@@ -44,7 +44,7 @@ export default function Page() {
             alt="HexNode AI glitch illustration"
             width={300}
             height={300}
-            className="invert object-contain"
+            className="object-contain"
             unoptimized
             priority
             onError={(e) => {
