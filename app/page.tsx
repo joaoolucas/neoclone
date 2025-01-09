@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { BackgroundEffect } from '../components/background-effect'
 import { DreamButton } from '../components/dream-button'
+import { Twitter } from 'lucide-react'
 
 export default function Page() {
   const [isEffectActive, setIsEffectActive] = useState(false)
@@ -17,6 +18,15 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-4">
+      <a 
+        href="https://x.com/NodeHexe" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="absolute top-4 right-4 text-orange-500 hover:text-orange-400 transition-colors"
+      >
+        <Twitter size={24} />
+      </a>
+
       <BackgroundEffect isActive={isEffectActive} />
       
       <motion.div
