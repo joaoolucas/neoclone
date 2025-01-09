@@ -47,7 +47,6 @@ export function BackgroundEffect({ isActive }: { isActive: boolean }) {
 
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden">
-      <div className="absolute inset-0 bg-orange-500/20" />
       {elements.map((el, i) => {
         switch (el.type) {
           case 'particle':
@@ -66,7 +65,7 @@ export function BackgroundEffect({ isActive }: { isActive: boolean }) {
                   delay: el.delay,
                   ease: "easeOut",
                 }}
-                className="absolute bg-cyan-400 rounded-full"
+                className="absolute bg-orange-400 rounded-full"
                 style={{ width: el.size, height: el.size }}
               />
             )
@@ -85,7 +84,7 @@ export function BackgroundEffect({ isActive }: { isActive: boolean }) {
                   delay: el.delay,
                   ease: "linear",
                 }}
-                className="absolute h-px bg-pink-500"
+                className="absolute h-px bg-orange-500"
                 style={{ left: el.x, top: el.y, width: 100 }}
               />
             )
