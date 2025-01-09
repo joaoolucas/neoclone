@@ -18,15 +18,6 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-4">
-      <a 
-        href="https://x.com/NodeHexe" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="absolute top-4 right-4 text-orange-500 hover:text-orange-400 transition-colors"
-      >
-        <Twitter size={24} />
-      </a>
-
       <BackgroundEffect isActive={isEffectActive} />
       
       <motion.div
@@ -40,6 +31,14 @@ export default function Page() {
           <br />
           CA-SOON
         </h1>
+        <a 
+          href="https://x.com/NodeHexe" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block mt-2 text-orange-500 hover:text-orange-400 transition-colors"
+        >
+          <Twitter size={20} />
+        </a>
       </motion.div>
 
       <motion.div
