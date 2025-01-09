@@ -26,9 +26,9 @@ export default function Page() {
         className="text-center space-y-2 mb-8"
       >
         <h1 className="text-sm font-mono tracking-wider">
-          Neonix AI
+          HexNode AI
           <br />
-          CA-8aaTGLRc73QGwqN795Gn6JHuUhby78sRzDYe11mkpump
+          CA-SOON
         </h1>
       </motion.div>
 
@@ -40,8 +40,8 @@ export default function Page() {
       >
         <div className="w-[300px] h-[300px] relative flex items-center justify-center">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/shrimp-utdB8GuLLE5ZIxtJ9pjUqKmXBlBEQ2.gif"
-            alt="Neonix AI glitch shrimp illustration"
+            src="/neonixclone.gif"
+            alt="HexNode AI glitch illustration"
             width={300}
             height={300}
             className="invert object-contain"
