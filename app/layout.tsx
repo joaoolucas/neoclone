@@ -5,17 +5,10 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Neonix AI',
-  description: 'Experience the future with Neonix AI - Cyberpunk-inspired artificial intelligence',
-  openGraph: {
-    title: 'Neonix AI',
-    description: 'Experience the future with Neonix AI - Cyberpunk-inspired artificial intelligence',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Neonix AI',
-    description: 'Cyberpunk meets AI in Neonix',
+  title: 'HexNode',
+  description: 'HexNode AI Platform',
+  icons: {
+    icon: '/favicon.ico',
   },
 }
 

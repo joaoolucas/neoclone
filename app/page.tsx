@@ -26,7 +26,7 @@ export default function Page() {
         className="text-center space-y-2 mb-8"
       >
         <h1 className="text-sm font-mono tracking-wider">
-          HexNode AI
+          HexNode
           <br />
           CA-SOON
         </h1>
