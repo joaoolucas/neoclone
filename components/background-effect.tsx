@@ -102,7 +102,7 @@ export function BackgroundEffect({ isActive }: { isActive: boolean }) {
                   delay: el.delay,
                   ease: "steps(3)",
                 }}
-                className="absolute font-mono text-red-500 text-xl"
+                className="absolute font-mono text-orange-500 text-xl"
                 style={{ left: el.x, top: el.y }}
               >
                 ERROR

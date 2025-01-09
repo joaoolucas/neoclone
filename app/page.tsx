@@ -36,7 +36,7 @@ export default function Page() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.8 }}
-        className="relative border border-cyan-500/20 p-8 mb-8"
+        className="relative border border-orange-500/20 p-8 mb-8"
       >
         <div className="w-[300px] h-[300px] relative flex items-center justify-center">
           <Image
